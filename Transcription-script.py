@@ -6,7 +6,7 @@ audio_file = whisper.load_audio('audio_data/1017.aac')
 
 def transcribing(audio_array, lan):
     #Transcribing text
-    result = model.transcribe(audio_array, verbose = True,  lan, 'transcribe')
+    result = model.transcribe(audio_array, verbose = True,  language = lan, task = 'transcribe')
     segments = result['segments']
     text = result['text']
 
