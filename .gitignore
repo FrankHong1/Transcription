@@ -57,6 +57,7 @@ venv/
 env/
 ENV/
 .venv/
+env311/
 
 # Audio files
 audio_data/
