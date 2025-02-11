@@ -62,9 +62,5 @@ env311/
 # Audio files
 audio_data/
 
-#Transcription files
-transcribed_text/
-transcribed_segments/
-
 #  PyCharm/IntelliJ
 .idea
